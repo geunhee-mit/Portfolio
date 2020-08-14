@@ -15,11 +15,13 @@ body {
 }
 
 a {
-  color: #777;
+  /* color: #777; */
+  color: black;
 }
 
 a:hover {
-  color: #000;
+  /* color: #000; */
+  color: #777;
 }
 
 h1,
@@ -93,7 +95,7 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.8);
   visibility: hidden;
   opacity: 0;
   transition: .3s all ease-in-out;
@@ -415,7 +417,7 @@ h6,
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 
 /* Burger */
@@ -548,7 +550,7 @@ h6,
 
 
 #mainNav {
-  background-color: #white;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
@@ -564,16 +566,17 @@ h6,
 
 #mainNav .navbar-brand {
   color: black;
+  font-size: 1rem;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  font-size: 1.0em;
+  font-size: 1rem;
   color: gray;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 1.25rem;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
@@ -582,6 +585,7 @@ h6,
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  font-size: 1rem;
   font-weight:bold;
   color: black;
 }
@@ -595,13 +599,13 @@ h6,
     background-color: white;
   }
   #mainNav .navbar-brand {
-    font-size: 1.0em;
+    font-size: 1em;
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
-  #mainNav.navbar-shrink {
+  /* #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: white;
@@ -609,7 +613,7 @@ h6,
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.0em;
     padding: 12px 0;
-  }
+  } */
 }
 
 .fade-in {
@@ -703,7 +707,7 @@ h6,
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
 }
 
 /* Caption text */
